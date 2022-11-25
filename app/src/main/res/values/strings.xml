@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">メモ帳</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="confirm">確認</string>
+    <string name="confirm_delete">メモは削除されます、よろしいですか。</string>
+    <string name="confirm_back">編集は破棄されます、よろしいですか。</string>
+    <string name="save">保存しました。</string>
+    <string name="delete">削除しました。</string>
+</resources>
