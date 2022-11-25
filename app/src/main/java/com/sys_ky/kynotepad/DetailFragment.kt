@@ -93,8 +93,8 @@ class DetailFragment : Fragment() {
                     updId = mTextId
                     dbCtrl.Memo().updateTextById(updId, updText)
                 }
+                Toast.makeText(requireContext(), R.string.save, Toast.LENGTH_SHORT).show()
             }
-            Toast.makeText(requireContext(), R.string.save, Toast.LENGTH_SHORT).show()
             Navigation.findNavController(view).popBackStack()
         }
 
